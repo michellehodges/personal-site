@@ -1,13 +1,40 @@
+.intro-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .main-title {
   color: red;
+  margin: 2em;
 }
 
 .main-photo {
-  width: 20em;
-  height: 20em;
+  width: 17em;
+  height: 17em;
 }
 
 .skillsets {
-  width: 10em;
-  height: 10em;
+  width: 7em;
+  height: 7em;
+  margin: 1em;
+}
+
+
+
+.subtitle {
+  text-align: center;
+  color: red;
+}
+
+.about {
+  text-align: justify;
+  border: 0.25em solid red;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 2em 3em 2em 3em;
+}
+
+.project-image {
+  width: 20em;
+  height: auto;
 }
