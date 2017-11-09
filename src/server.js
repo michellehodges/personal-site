@@ -17,7 +17,6 @@ server.use(express.static('public'));
 server.get('/', function(request, response) {
   response.render('main');
   //TODO: response if errors out?
-
   // if (err) {
   //   throw (err);
   //   response.render("Sorry, but there was a problem loading this page.")
